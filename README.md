@@ -1,4 +1,4 @@
-# BestZap API
+# WhatsApp API
 
 
 <div align="center">
