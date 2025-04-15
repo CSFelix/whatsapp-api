@@ -4,7 +4,7 @@
 
 **- Local Route** - `http://localhost:8080/api/whatsapp/sendMessage/`;
 
-**- Production Route** - `https://bestzap-10-api.fxsistemas.com.br/api/whatsapp/sendMessage/`;
+**- Production Route** - `<production_url>/api/whatsapp/sendMessage/`;
 
 **- Method** - `POST`.
 
