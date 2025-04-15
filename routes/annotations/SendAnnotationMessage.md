@@ -4,7 +4,7 @@
 
 **- Local Route** - `http://localhost:8080/api/annotation/sendMessage/`;
 
-**- Production Route** - `https://bestzap-10-api.fxsistemas.com.br/api/annotation/sendMessage`;
+**- Production Route** - `<production_url>/api/annotation/sendMessage`;
 
 **- Method** - `POST`.
 
