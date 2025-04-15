@@ -4,7 +4,7 @@
 
 **- Local Route** - `http://localhost:8080/api/tickets/countAndList`;
 
-**- Production Route** - `https://bestzap-10-api.fxsistemas.com.br/api/tickets/countAndList/`;
+**- Production Route** - `<production_url>/api/tickets/countAndList/`;
 
 **- Method** - `GET`.
 
