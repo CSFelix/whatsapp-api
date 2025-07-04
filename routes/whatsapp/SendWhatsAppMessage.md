@@ -31,8 +31,6 @@
 
 **- phoneNumber** - Contact's WhatsApp Number. Example: `<country_code><ddd><number> - 5518999999999`;
 
-**- isLid** - 1 (contact uses `lid` in WhatsApp) or 0 (contact uses `phoneNumber` in WhatsApp);
-
 **- body** - text message;
 
 **- medias** - medias messages, such as images, documents, zips, audios and videos;
@@ -61,7 +59,6 @@ Body
 
 {
 	"phoneNumber": "5518999999999",
-	"isLid": "0",
 	"body": "Hello World!",
 	"medias": "<files>",
 	"groupId": "1",
