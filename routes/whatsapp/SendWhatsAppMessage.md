@@ -20,7 +20,9 @@
 
 **- x-tenant-id** - tenant ID to identify the user;
 
-**- x-connection-api-token** - connection token to identify the whatsapp connection.
+**- x-connection-api-token** - connection token to identify the whatsapp connection;
+
+**- groupid** - client's group.
 
 ---
 
@@ -35,8 +37,6 @@
 
 **- medias** - medias messages, such as images, documents, zips, audios and videos;
 
-**- groupId** - vps to send the message;
-
 **- closeTicketSetting** - 1 (tickets are closed after receiving the message) or 0 (tickets are not closed). This option does not work on already created tickets.
 
 ---
@@ -50,7 +50,8 @@ Authorization
 	"Content-Type": "multipart/form-data",
 	"Authorization": "<api_key>",
 	"x-tenant-id": "1",
-	"x-connection-api-token": "<connection_api_key>"
+	"x-connection-api-token": "<connection_api_key>",
+	"groupid": "1"
 }
 ```
 
@@ -61,8 +62,7 @@ Body
 	"phoneNumber": "5518999999999",
 	"body": "Hello World!",
 	"medias": "<files>",
-	"groupId": "1",
-        "closeTicketSetting": "1",
+ 	"closeTicketSetting": "1"
 }
 ```
 
@@ -74,3 +74,4 @@ Response
 	"message": "WhatsApp Message Sent!"
 }
 ```
+
