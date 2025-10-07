@@ -12,7 +12,10 @@
 
 > Headers
 
-> **OBS.** - all headers are required.
+> [!NOTE]  
+> `GroupId` is only used on production.
+> 
+> `All headers` are required.
 
 **- Content-Type** - must be on `multipart/form-data` format;
 
@@ -29,7 +32,7 @@
 > Body
 
 > [!NOTE]  
-> `phoneNumber` is required and at least one `body` or one `media` is required. `groupId` is only used on production. `closeTicketSetting` is optional with 1 as default value.
+> `phoneNumber` is required and at least one `body` or one `media` is required. `closeTicketSetting` is optional with 1 as default value.
 
 **- phoneNumber** - Contact's WhatsApp Number. Example: `<country_code><ddd><number> - 5518999999999`;
 
@@ -74,6 +77,7 @@ Response
 	"message": "WhatsApp Message Sent!"
 }
 ```
+
 
 
 
