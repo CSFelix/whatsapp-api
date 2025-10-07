@@ -12,7 +12,7 @@
 
 > Headers
 
-> **Note** - the three headers are required.
+> **OBS.** - all headers are required.
 
 **- Content-Type** - must be on `multipart/form-data` format;
 
@@ -74,5 +74,6 @@ Response
 	"message": "WhatsApp Message Sent!"
 }
 ```
+
 
 
