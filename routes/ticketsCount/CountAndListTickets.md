@@ -16,7 +16,7 @@
 
 **- x-tenant-id** - tenant ID to identify the user;
 
-**- groupId** - client's group.
+**- groupid** - client's group.
 
 ---
 
@@ -36,7 +36,7 @@ Authorization
 {
 	"Authorization": "<api_key>",
 	"x-tenant-id": "1",
-	"groupId": "1",
+	"groupid": "1",
 }
 ```
 
@@ -57,4 +57,5 @@ Response
 	"ticketsList": "array[2]"
 }
 ```
+
 
