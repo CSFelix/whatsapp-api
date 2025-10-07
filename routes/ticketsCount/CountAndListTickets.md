@@ -36,6 +36,7 @@ Authorization
 {
 	"Authorization": "<api_key>",
 	"x-tenant-id": "1",
+	"groupId": "1",
 }
 ```
 
@@ -56,3 +57,4 @@ Response
 	"ticketsList": "array[2]"
 }
 ```
+
