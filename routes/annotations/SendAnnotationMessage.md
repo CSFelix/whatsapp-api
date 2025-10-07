@@ -12,28 +12,31 @@
 
 > Headers
 
-> **Note** - the three headers are required.
+> [!NOTE]  
+> `GroupId` is only used on production.
+> 
+> `All headers` are required.
 
 **- Content-Type** - must be on `multipart/form-data` format;
 
 **- Authorization** - must be equals to the value of `userApiToken` from `Settings` table in the user database;
 
-**- x-tenant-id** - tenant ID to identify the user.
+**- x-tenant-id** - tenant ID to identify the user;
+
+**- groupid** - client's group.
 
 ---
 
 > Body
 
 > [!NOTE]  
-> `noteName` is required and at least one `body` or one `media` is required. `GroupId` is only used on production and is not required.
+> `noteName` is required and at least one `body` or one `media` is required.
 
 **- noteName** - alias for the note;
 
 **- body** - text message;
 
-**- medias** - medias messages, such as images, documents, zips, audios and videos;
-
-**- groupId** - vps to send the message.
+**- medias** - medias messages, such as images, documents, zips, audios and videos.
 
 ---
 
@@ -68,3 +71,4 @@ Response
 	"message": "Annotation Message Sent!"
 }
 ```
+
