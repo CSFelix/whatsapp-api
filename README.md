@@ -23,3 +23,5 @@
 ## [Tickets](https://github.com/CSFelix/whatsapp-api/tree/main/routes/ticketsCount)
 
 - [CountAndList](https://github.com/CSFelix/whatsapp-api/blob/main/routes/ticketsCount/CountAndListTickets.md)
+
+- [Ratings](https://github.com/CSFelix/whatsapp-api/blob/main/routes/ticketsRatings/RatingsTickets.md)
