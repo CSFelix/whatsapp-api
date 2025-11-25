@@ -42,7 +42,7 @@
 
 **- closeTicketSetting** - 1 (tickets are closed after receiving the message) or 0 (tickets are not closed). This option does not work on already created tickets;
 
-**- shouldIgnoreBlackList** - 1 (dispatch blacklist's validation is not applied and the message is sent regardless whether the contact is into the blacklist or not) or 0 (validation is applied and the message is sent only if the contact is not into the blacklist). If not informed, the value `0` is used as default.
+**- shouldSkipBlackList** - 1 (dispatch blacklist's validation is not applied and the message is sent regardless whether the contact is into the blacklist or not) or 0 (validation is applied and the message is sent only if the contact is not into the blacklist). If not informed, the value `0` is used as default.
 
 ---
 
@@ -68,7 +68,7 @@ Body
 	"body": "Hello World!",
 	"medias": "<files>",
  	"closeTicketSetting": "1",
-    "shouldIgnoreBlackList": "0"
+    "shouldSkipBlackList": "0"
 }
 ```
 
@@ -80,6 +80,7 @@ Response
 	"message": "WhatsApp Message Sent!"
 }
 ```
+
 
 
 
