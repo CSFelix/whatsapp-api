@@ -13,7 +13,7 @@
 > Headers
 
 > [!NOTE]  
-> `GroupId` is only used on production.
+> `groupId` is only used on production.
 > 
 > `All headers` are required.
 
