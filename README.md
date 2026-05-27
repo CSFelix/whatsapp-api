@@ -25,3 +25,9 @@
 
 - [CountAndList](https://github.com/CSFelix/whatsapp-api/blob/main/routes/ticketsCount/CountAndListTickets.md)
 - [Ratings](https://github.com/CSFelix/whatsapp-api/blob/main/routes/ticketsRatings/RatingsTickets.md)
+
+---
+
+## [Session](https://github.com/CSFelix/whatsapp-api/tree/main/routes/session)
+
+- [DisconnectSessions](https://github.com/CSFelix/whatsapp-api/blob/main/routes/session/DisconnectSessions.md)
