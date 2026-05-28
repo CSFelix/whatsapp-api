@@ -17,7 +17,7 @@
 >
 > `All headers` are required.
 
-**- Authorization** - must be equals to the value of `userApiToken` from `Settings` table in the user database;
+**- x-api-application-token** - check with developers;
 
 **- x-tenant-id** - tenant ID to identify the user;
 
@@ -37,7 +37,7 @@ No request body is required.
 Authorization
 
 {
-	"Authorization": "<api_key>",
+	"x-api-application-token": "<api_application_key>",
 	"x-tenant-id": "1",
 	"groupid": "1"
 }
