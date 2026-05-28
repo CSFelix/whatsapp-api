@@ -19,7 +19,9 @@
 
 **- x-api-application-token** - check with developers;
 
-**- x-tenant-id** - tenant ID to identify the user;
+**- x-target-tenant-id** - tenant ID that all sessions will be disconnected;
+
+**- x-tenant-id** - tenant ID from the requisition to identify the user;
 
 **- groupid** - client's group.
 
@@ -39,6 +41,7 @@ Authorization
 {
 	"x-api-application-token": "<api_application_key>",
 	"x-tenant-id": "1",
+    "x-target-tenant-id": "2",
 	"groupid": "1"
 }
 ```
