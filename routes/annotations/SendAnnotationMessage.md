@@ -36,7 +36,9 @@
 
 **- body** - text message;
 
-**- medias** - medias messages, such as images, documents, zips, audios and videos.
+**- medias** - medias messages, such as images, documents, zips, audios and videos;
+
+**- queueId** - queue/department ID to assign the note ticket.
 
 ---
 
@@ -48,7 +50,8 @@ Headers
 {
 	"Content-Type": "multipart/form-data",
 	"Authorization": "<api_key>",
-	"x-tenant-id": "1"
+	"x-tenant-id": "1",
+    "groupdId": "1",
 }
 ```
 
@@ -59,7 +62,7 @@ Body
 	"noteName": "FX Sistemas",
 	"body": "Hello World!",
 	"medias": "<files>",
-	"groupdId": "1",
+    "queueId": "<target_queue_id>"
 }
 ```
 
