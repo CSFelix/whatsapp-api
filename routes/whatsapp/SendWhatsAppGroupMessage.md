@@ -2,6 +2,10 @@
 
 > General
 
+> [!NOTE]  
+> Only `Non-Official API Connections` are allowed in this route. All requests for Official API Connections will be rejected with HTTP Code `403 (Forbidden)`.
+> 
+
 **- Local Route** - `http://localhost:8080/api/whatsappGroup/sendMessage/`;
 
 **- Production Route** - `<production_url>/api/whatsappGroup/sendMessage/`;
