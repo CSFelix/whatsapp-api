@@ -38,7 +38,30 @@
 
 **- body** - text message;
 
-**- medias** - medias messages, such as images, documents, zips, audios and videos;
+**- medias** - medias messages, such as images, documents, zips, audios and videos. If the connection is using the Meta Official API, only the following medias are allowed:
+```json
+{
+  "AUDIO": {
+  "SIZE": "16MB"
+    , "EXTENSIONS": [".aac", ".amr", ".mp3", ".m4a", ".ogg"]
+  }
+
+  , "DOCUMENT": {
+  "SIZE": "100MB"
+    , "EXTENSIONS": [".txt", ".csv", ".xls", ".xlsx", ".doc", ".docx", ".ppt", ".pptx", ".pdf", ".zip", ".rar"]
+  }
+
+  , "IMAGE": {
+  "SIZE": "5MB"
+    , "EXTENSIONS": [".jpeg", ".jpg", ".png"]
+  }
+
+  , "VIDEO": {
+    "SIZE": "16MB"
+    , "EXTENSIONS": [".3gp", ".mp4"]
+  }
+}
+```
 
 **- closeTicketSetting** - 1 (tickets are closed after receiving the message) or 0 (tickets are not closed). This option does not work on already created tickets;
 
