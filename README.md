@@ -18,6 +18,7 @@
 
 - [SendWhatsAppMessage](https://github.com/CSFelix/whatsapp-api/blob/main/routes/whatsapp/SendWhatsAppMessage.md)
 - [SendWhatsAppGroupMessage](https://github.com/CSFelix/whatsapp-api/blob/main/routes/whatsapp/SendWhatsAppGroupMessage.md)
+- [SendWhatsAppTemplateMessage](https://github.com/CSFelix/whatsapp-api/blob/main/routes/whatsapp/SendWhatsAppTemplateMessage.md)
 
 ---
 
